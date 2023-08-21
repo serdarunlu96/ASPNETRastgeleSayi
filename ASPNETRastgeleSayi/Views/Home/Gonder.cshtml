@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = ViewData["Ad"] as string;
+    string ad = ViewData["Ad"] as string;
+    int rastgeleSayi = new Random().Next(1000, 9999);
+}
+
+<p>Merhaba @ad,</p>
+<p>Rastgele oluşan numaranız: @rastgeleSayi</p>
